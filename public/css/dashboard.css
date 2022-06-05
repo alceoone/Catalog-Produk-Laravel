@@ -1,0 +1,57 @@
+/* dashboard */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: #111; */
+    overflow-x: hidden;
+    padding-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+   
+  .sidenav a {
+    padding: 15px 8px 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    
+  }
+   
+  .sidenav a:hover {
+      background-color:  dodgerblue;
+      color: white;
+    
+      
+  }
+  .sidenav a.active {
+    background-color: dodgerblue;
+    color: white;
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+   
+  .main {
+    margin-left: 270px;
+    padding: 0px 10px;
+  }
+  .header-main {
+      margin-top: 30px;
+      font-size: 18px;
+  }
+  .container-main {
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+  }
+   
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
